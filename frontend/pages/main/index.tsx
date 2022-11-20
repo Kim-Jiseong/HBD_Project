@@ -13,7 +13,7 @@ const Main = () => {
   const getLetter = async () => {
     await axios
       .get(
-        "http://http://ec2-15-164-50-248.ap-northeast-2.compute.amazonaws.com/api/main/letter/"
+        "http://ec2-15-164-50-248.ap-northeast-2.compute.amazonaws.com/api/main/letter/"
       )
       .then(function (res) {
         console.log(res.data);
