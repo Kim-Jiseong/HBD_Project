@@ -12,7 +12,9 @@ const Main = () => {
   // const animatedItem = useScrollAnimation();
   const getLetter = async () => {
     await axios
-      .get("http://127.0.0.1:8000/main/letter/")
+      .get(
+        "http://http://ec2-15-164-50-248.ap-northeast-2.compute.amazonaws.com/api/main/letter/"
+      )
       .then(function (res) {
         console.log(res.data);
         setLetter(res.data);
@@ -23,7 +25,9 @@ const Main = () => {
   };
   const getPhoto = async () => {
     await axios
-      .get("http://127.0.0.1:8000/main/photo/")
+      .get(
+        "http://ec2-15-164-50-248.ap-northeast-2.compute.amazonaws.com/api/main/photo/"
+      )
       .then(function (res) {
         console.log(res.data);
         setPhoto(res.data);
