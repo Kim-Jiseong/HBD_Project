@@ -3,7 +3,8 @@ from .models import Photo, Letter
 
 
 class PhotoSerializer(serializers.ModelSerializer):
-    class Meta:
+    img = serializers.ImageField(use_url=True)
+    class Meta:        
         model = Photo
         fields = "__all__"
 
