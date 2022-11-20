@@ -61,7 +61,7 @@ CORS_ALLOW_CREDENTIALS = True
 #     '*',
 # ]
 ROOT_URLCONF = 'backend.urls'
-CSRF_TRUSTED_ORIGINS = ['http://*.ap-northeast-2.compute.amazonaws.com','*', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://*.ap-northeast-2.compute.amazonaws.com', 'http://127.0.0.1']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
