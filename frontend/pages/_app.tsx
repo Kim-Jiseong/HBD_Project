@@ -1,7 +1,7 @@
 import GlobalStyle from "styles/GlobalStyle";
 import Head from "next/head";
-
-function MyApp({ Component, pageProps }) {
+import type { AppProps } from "next/app";
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <GlobalStyle>
       <Head>
