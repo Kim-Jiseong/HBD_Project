@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import axios from "axios";
 import { useRouter } from "next/router";
-import * as S from "./style";
+import * as S from "../../styles/main_style";
 // import { useScrollAnimation } from "hooks/useScrollAnimaiton.js";
 const Main = () => {
   const router = useRouter();

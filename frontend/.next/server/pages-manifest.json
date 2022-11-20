@@ -1,13 +1,9 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/animation": "pages/animation.js",
+  "/_document": "pages/_document.js",
   "/api/hello": "pages/api/hello.js",
-  "/intro": "pages/intro.js",
-  "/intro/style": "pages/intro/style.js",
-  "/main/components": "pages/main/components.js",
-  "/main/components/style": "pages/main/components/style.js",
-  "/main": "pages/main.js",
-  "/main/style": "pages/main/style.js"
+  "/intro": "pages/intro.html",
+  "/main": "pages/main.html",
+  "/404": "pages/404.html"
 }

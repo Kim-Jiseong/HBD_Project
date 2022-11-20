@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import * as S from "./style";
+import * as S from "../../styles/intro_style";
 const Intro = () => {
   const router = useRouter();
   const move = () => {
