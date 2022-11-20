@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-no_2=_=1$6u2a_c$q55i*nroi$jd)ykqot^e7@n7+*ec17km#o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".ap-northeast-2.compute.amazonaws.com"]
 
 
 # Application definition
@@ -55,6 +55,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 ROOT_URLCONF = 'backend.urls'
+CSRF_TRUSTED_ORIGINS = ['.ap-northeast-2.compute.amazonaws.com']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
