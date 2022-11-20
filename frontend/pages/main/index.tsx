@@ -6,8 +6,8 @@ import * as S from "./style";
 // import { useScrollAnimation } from "hooks/useScrollAnimaiton.js";
 const Main = () => {
   const router = useRouter();
-  const [letter, setLetter] = useState();
-  const [photo, setPhoto] = useState();
+  const [letter, setLetter] = useState<any[]>();
+  const [photo, setPhoto] = useState<any[]>();
   const [modal, setModal] = useState(false);
   // const animatedItem = useScrollAnimation();
   const getLetter = async () => {
@@ -44,7 +44,7 @@ const Main = () => {
 
   // }, [modal])
   return (
-    <S.Container modal={modal}>
+    <S.Container>
       <S.MailBox onClick={ModalCTL}>
         <i className="bi bi-envelope"></i>
       </S.MailBox>

@@ -1,6 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/main": "pages/main.js"
+  "/_error": "pages/_error.js",
+  "/animation": "pages/animation.js",
+  "/api/hello": "pages/api/hello.js",
+  "/intro": "pages/intro.js",
+  "/intro/style": "pages/intro/style.js",
+  "/main/components": "pages/main/components.js",
+  "/main/components/style": "pages/main/components/style.js",
+  "/main": "pages/main.js",
+  "/main/style": "pages/main/style.js"
 }
